@@ -12,6 +12,8 @@ menu:
 This is a placeholder page that shows you how to use this template site.
 {{% /pageinfo %}}
 
+The repo for this project is {{ .Site.params.github_project_repo }}.
+
 
 This section is where the user documentation for your project lives - all the information your users need to understand and successfully use your project. 
 
