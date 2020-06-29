@@ -133,7 +133,7 @@
     #content-desktop {display: block;}
     #content-mobile {display: none;}
 
-    @include media-breakpoint-down(md) {
+    @include media-breakpoint-down(sm) {
 
     #content-desktop {display: none;}
     #content-mobile {display: block;}
