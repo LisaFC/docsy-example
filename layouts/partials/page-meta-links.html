@@ -7,8 +7,8 @@
 {{ if $gh_repo }}
 <div class="td-page-meta ml-2 pb-1 pt-2 mb-0">
 {{ $editURL := printf "%s/edit/%s/content/%s" $gh_repo $gh_branch $pathFormatted }}
-{{ else if $gh_subdir }}
-{{ $editURL := printf "%s/edit/%s/%s/content/%s" $gh_repo $gh_branch $gh_subdir $pathFormatted }}
+{{ if $gh_subdir }}
+{{ $editURL = printf "%s/edit/%s/%s/content/%s" $gh_repo $gh_branch $gh_subdir $pathFormatted }}
 {{ end }}
 {{ $issuesURL := printf "%s/issues/new?title=%s" $gh_repo (htmlEscape $.Title )}}
 <a href="{{ $editURL }}" target="_blank"><i class="fa fa-edit fa-fw"></i> {{ T "post_edit_this" }}</a>
