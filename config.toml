@@ -18,6 +18,9 @@ enableMissingTranslationPlaceholders = true
 
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
+markup:
+  highlight: tango
+
 # Highlighting config
 # pygmentsCodeFences = true
 # pygmentsUseClasses = false
