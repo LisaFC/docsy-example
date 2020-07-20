@@ -70,8 +70,8 @@ time_format_blog = "02.01.2006"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
-    [markup.highlight]
-      style = "tango"
+  [markup.highlight]
+    style = "tango"
 
 # Everything below this are Site Params
 
