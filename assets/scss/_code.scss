@@ -5,13 +5,16 @@
     .highlight {
         @extend .card;
 	
-	pre, div {
-            background-color: inherit !important;
-        }
+        margin: 2rem 0;
+        padding: 1rem;
+
+        //pre, div {
+            //background-color: inherit !important;
+        //}
 
         pre {
-           margin: 2rem 0;
-           padding: 1rem;
+            margin: 0;
+            padding: 0;
         }
     }
 
