@@ -19,13 +19,13 @@ enableMissingTranslationPlaceholders = true
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
 # Highlighting config
-# pygmentsCodeFences = true
-# pygmentsUseClasses = false
+pygmentsCodeFences = true
+pygmentsUseClasses = false
 # Use the new Chroma Go highlighter in Hugo.
-# pygmentsUseClassic = false
+pygmentsUseClassic = false
 #pygmentsOptions = "linenos=table"
 # See https://help.farbox.com/pygments.html
-# pygmentsStyle = "tango"
+pygmentsStyle = "tango"
 
 # Configure how URLs look like per section.
 [permalinks]
@@ -71,7 +71,7 @@ time_format_blog = "02.01.2006"
     [markup.goldmark.renderer]
       unsafe = true
   [markup.highlight]
-    style = "tango"
+    # style = "tango"
 
 # Everything below this are Site Params
 
