@@ -151,7 +151,7 @@ Also, `this should vertically align` ~~`with this`~~ ~~and this~~.
 
 Code can also be shown in a block element.
 
-```
+```none
 foo := "bar";
 bar := "foo";
 ```
