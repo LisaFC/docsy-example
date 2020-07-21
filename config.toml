@@ -72,6 +72,7 @@ time_format_blog = "02.01.2006"
       unsafe = true
   [markup.highlight]
       style = "rrt"
+      guessSyntax = "true"
 
 # Everything below this are Site Params
 
