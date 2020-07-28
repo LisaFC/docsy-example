@@ -31,7 +31,7 @@
 
 
     // Code blocks
-    pre {
+    pre, table > pre {
         word-wrap: normal;
         background-color: $gray-100;
         padding: $spacer;
