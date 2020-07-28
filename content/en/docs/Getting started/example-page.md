@@ -178,6 +178,31 @@ func main() {
 Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
 ```
 
+Code block in a table, I know, I know, it's serious:
+
+<table>
+  <tr>
+    <td>
+      ```go
+      func main() {
+  input := `var foo = "bar";`
+
+  lexer := lexers.Get("javascript")
+  iterator, _ := lexer.Tokenise(nil, input)
+  style := styles.Get("github")
+  formatter := html.New(html.WithLineNumbers())
+
+  var buff bytes.Buffer
+  formatter.Format(&buff, style, iterator)
+
+  fmt.Println(buff.String())
+}
+```
+
+</td>
+</tr>
+</table>
+
 Inline code inside table cells should still be distinguishable.
 
 | Language    | Code               |
