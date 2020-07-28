@@ -31,13 +31,13 @@
 
 
     // Code blocks
-    pre, table pre {
+    pre {
         word-wrap: normal;
         background-color: $gray-100;
         padding: $spacer;
      
 
-        > code {
+        > code !important {
             padding: 0;
             margin: 0;
             font-size: 100%;
