@@ -183,7 +183,8 @@ Code block in a table, I know, I know, it's serious:
 <table>
   <tr>
     <td>
-      ```go
+ 
+ ```go
       func main() {
   input := `var foo = "bar";`
 
