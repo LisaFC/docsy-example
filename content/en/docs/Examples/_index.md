@@ -20,4 +20,6 @@ The new **TechOS** operating system is an open source project. It is a new proje
 Please follow this space for updates!
 {{< /blocks/feature >}}
 
-
+{{< blocks/feature icon="fab fa-github" title="Contributions welcome!" url="https://github.com/google/docsy-example" >}}
+We do a [Pull Request](https://github.com/google/docsy-example/pulls) contributions workflow on **GitHub**. New users are always welcome!
+{{< /blocks/feature >}}
