@@ -14,11 +14,11 @@ This is a placeholder page that shows you how to use this template site.
 
 Do you have any example **applications** or **code** for your users in your repo or elsewhere? Link to your examples here.
 
-{{< blocks/feature icon="fa-lightbulb" title="Fastest OS **on the planet**!" >}}
+{{% blocks/feature icon="fa-lightbulb" title="Fastest OS **on the planet**!" %}}
 The new **TechOS** operating system is an open source project. It is a new project, but with grand ambitions.
 
 Please follow this space for updates!
-{{< /blocks/feature >}}
+{{% /blocks/feature %}}
 
 {{< blocks/feature icon="fab fa-github" title="Contributions welcome!" url="https://github.com/google/docsy-example" >}}
 We do a [Pull Request](https://github.com/google/docsy-example/pulls) contributions workflow on **GitHub**. New users are always welcome!
